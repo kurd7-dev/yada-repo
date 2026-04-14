@@ -1,0 +1,2 @@
+deb main https://example.com/yada-repo/packages
+bootstrap stable https://example.com/yada-repo/bootstrap
