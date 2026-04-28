@@ -1,0 +1,10 @@
+Package: bash
+Version: 0.1.0
+Architecture: android-aarch64
+Maintainer: YADA
+Depends:
+Conflicts:
+Package-Format: zip
+Payload-Root: data
+Archive-SHA256: bbfd2bb7dc74e3f652b2c9341e8348dba210fae5a4d55f1649935d5959440972
+Description: Upload test package for the YADA repository.
