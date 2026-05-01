@@ -80,7 +80,7 @@ Architecture: aarch64
 Essential: yes
 Maintainer: Joshua Kahn <tom@termux.dev>
 Installed-Size: 4731
-Depends: libandroid-support, libiconv, readline (>= 8.3), termux-tools
+Depends: libandroid-support, libiconv, readline (>= 8.3),
 Recommends: command-not-found, bash-completion
 Breaks: bash-dev
 Replaces: bash-dev
