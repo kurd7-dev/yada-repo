@@ -1,5 +1,5 @@
 Package: apt
-Version: 2.8.1-4
+Version: 2.8.1-5
 Architecture: aarch64
 Essential: yes
 Maintainer: @yada
@@ -9,39 +9,39 @@ Suggests: gnupg
 Conflicts: apt-transport-https, libapt-pkg, unstable-repo, game-repo, science-repo
 Replaces: apt-transport-https, libapt-pkg, unstable-repo, game-repo, science-repo
 Provides: unstable-repo, game-repo, science-repo
-Filename: pool/main/a/apt/apt_2.8.1-4_aarch64.deb
-Size: 1031904
-MD5sum: 8e3a69cbfe7a1adf4ab04d555bc8993d
-SHA1: b49e6e5fb0c427e3e8aad327535a01e8d193ee1e
-SHA256: 5ded378b664e1c3de740e153cf7ee1f6cef5d4b82e703c82d234fff3bb59c497
+Filename: pool/main/a/apt/apt_2.8.1-5_aarch64.deb
+Size: 1032352
+MD5sum: 048ecfae43683c37d853731cfd9f0bca
+SHA1: 5e63aec7b01765c15f599959ceee8488e1380c34
+SHA256: b2be15af8997998009c1d431c78c15d8ce3e9e5fa6666247b33b50dee839c121
 Homepage: https://packages.debian.org/apt
 Description: Front-end for the dpkg package manager
 
 Package: apt-ftparchive
-Version: 2.8.1-4
+Version: 2.8.1-5
 Architecture: aarch64
 Maintainer: @yada
 Installed-Size: 315
-Depends: libdb, apt (= 2.8.1-4)
-Filename: pool/main/a/apt-ftparchive/apt-ftparchive_2.8.1-4_aarch64.deb
+Depends: libdb, apt (= 2.8.1-5)
+Filename: pool/main/a/apt-ftparchive/apt-ftparchive_2.8.1-5_aarch64.deb
 Size: 97056
-MD5sum: 81d034cabeb0f8a46c6533811b7bdd4c
-SHA1: c82623820a6356a2e42937eea54a95472c314c68
-SHA256: f5d990743438c3c3217454965e1d8fdd96c21e80d1a66f966b6cb7bb643aa509
+MD5sum: 47cdc1b20a721e0680b0715cbf8c75cf
+SHA1: ed44e4c455edb7a82d4a6970b16a295d2ca38395
+SHA256: fbca968663e6508c3bce2ab33451d4bfffad4f125aa3f2f0ce0240f1f361c6df
 Homepage: https://packages.debian.org/apt
 Description: apt-ftparchive is the command line tool that generates the index files that APT uses to access a distribution source
 
 Package: apt-transport-tor
-Version: 2.8.1-4
+Version: 2.8.1-5
 Architecture: all
 Maintainer: @yada
 Installed-Size: 39
-Depends: tor, apt (= 2.8.1-4)
-Filename: pool/main/a/apt-transport-tor/apt-transport-tor_2.8.1-4_all.deb
+Depends: tor, apt (= 2.8.1-5)
+Filename: pool/main/a/apt-transport-tor/apt-transport-tor_2.8.1-5_all.deb
 Size: 928
-MD5sum: d9a09132e504ab6ae10651ec364b5917
-SHA1: 02d2f3e0308c5ec5392bd71de92fb0662634c7cf
-SHA256: cbff4196974a629413e2225d7cd0caa30005944e09110246293a4e31134c362e
+MD5sum: f1c69a5c5c059cdc7b2b772d7747e81f
+SHA1: 5423434636c062caf3f2eef26df14790ed263494
+SHA256: 6ef9d5b466baec6cb6ffb6aa7024ebee56e2e876146f029d5b9ef7b1200c4c62
 Homepage: https://packages.debian.org/apt
 Description: APT transport for anonymous package downloads via Tor
 
@@ -2551,81 +2551,6 @@ SHA1: 9c54961e235fb16a7365e55d8db0cac56e3ddb06
 SHA256: 310659c85a5ce3648a08313913c388b0d62717a17bf92fd4e526184e9b33604a
 Homepage: https://www.tcl.tk/
 Description: Powerful but easy to learn dynamic programming language
-
-Package: termux-core
-Version: 0.4.0-1
-Architecture: aarch64
-Essential: yes
-Maintainer: @termux
-Installed-Size: 4506
-Filename: pool/main/t/termux-core/termux-core_0.4.0-1_aarch64.deb
-Size: 756092
-MD5sum: 8f9c2d96148a7e81755bbc72cb966806
-SHA1: d7b1d1011c9c77d57ebbba02e7371719029eacab
-SHA256: 25a888419e6f9109671ff729a6e017c8de0e5e6861c4e16fe6d0113674ea9c28
-Homepage: https://github.com/termux/termux-core-package
-Description: Utils and libraries for Termux core
-
-Package: termux-core-static
-Version: 0.4.0-1
-Architecture: aarch64
-Maintainer: @termux
-Installed-Size: 129
-Depends: termux-core (= 0.4.0-1)
-Filename: pool/main/t/termux-core-static/termux-core-static_0.4.0-1_aarch64.deb
-Size: 19980
-MD5sum: 51e505245bf31935d62e1a1af2af4d91
-SHA1: 3d3850da5e87f57274a7d9c477fc3e58401faac8
-SHA256: 559c5b158391df044df8cb76e7f9a495f9e362931265f54c440701fd88b536cb
-Homepage: https://github.com/termux/termux-core-package
-Description: Static libraries for termux-core
-
-Package: termux-exec
-Version: 1:2.4.0-1
-Architecture: aarch64
-Essential: yes
-Maintainer: @termux
-Installed-Size: 6537
-Filename: pool/main/t/termux-exec/termux-exec_1:2.4.0-1_aarch64.deb
-Size: 904036
-MD5sum: 0af979d313a51f24d13c55b51687df1b
-SHA1: e16dba7d0ca42cc8993e72d66cac2f7c2a3f6c4f
-SHA256: 4248922d70cb69eeab781de6a617c1367bbfe966c6f2d60bcb2e42fa3de5e977
-Homepage: https://github.com/termux/termux-exec-package
-Description: Utils and libraries for Termux exec including a LD_PRELOAD shared library for proper functioning of the Termux execution environment
-
-Package: termux-exec-static
-Version: 1:2.4.0-1
-Architecture: aarch64
-Maintainer: @termux
-Installed-Size: 69
-Depends: termux-exec (= 1:2.4.0-1)
-Filename: pool/main/t/termux-exec-static/termux-exec-static_1:2.4.0-1_aarch64.deb
-Size: 10364
-MD5sum: 8e487bc99515837b8b325289eaf19b26
-SHA1: 20d7864a8cd9c2d6082ae9b892d76b048798dd8f
-SHA256: 651a1ab0f7068fcaa5d3910dc3976ae1f986df114debd277f86eb0501c76b2d0
-Homepage: https://github.com/termux/termux-exec-package
-Description: Static libraries for termux-exec
-
-Package: termux-tools
-Version: 1.46.0+really1.45.0-1
-Architecture: aarch64
-Essential: yes
-Maintainer: @termux
-Installed-Size: 522
-Depends: bzip2, coreutils, curl, dash, diffutils, findutils, gawk, grep, gzip, less, procps, psmisc, sed, tar, termux-core, termux-exec, util-linux, xz-utils, dialog
-Recommends: ed, dos2unix, inetutils, net-tools, patch, unzip
-Suggests: termux-api
-Conflicts: procps (<< 3.3.15-2)
-Breaks: termux-keyring (<< 1.9)
-Filename: pool/main/t/termux-tools/termux-tools_1.46.0+really1.45.0-1_aarch64.deb
-Size: 23364
-MD5sum: 876afb024a48c81c2397527eb672896c
-SHA1: bdda046e34a118e5498c92984f548ee5056b9f67
-SHA256: 39e9653b6ca8601b629b1eab2a047b19b9d932c94d701d7f7f1a2889e8635576
-Homepage: https://termux.dev/
-Description: Basic system tools for Termux
 
 Package: tk
 Version: 8.6.14-1
