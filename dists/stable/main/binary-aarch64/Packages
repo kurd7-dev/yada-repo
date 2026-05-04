@@ -78,17 +78,17 @@ Package: bash
 Version: 5.3.9
 Architecture: aarch64
 Essential: yes
-Maintainer: Joshua Kahn <tom@termux.dev>
+Maintainer: @yada
 Installed-Size: 4731
-Depends: libandroid-support, libiconv, readline (>= 8.3),
+Depends: libandroid-support, libiconv, readline (>= 8.3)
 Recommends: command-not-found, bash-completion
 Breaks: bash-dev
 Replaces: bash-dev
 Filename: pool/main/b/bash/bash_5.3.9_aarch64.deb
-Size: 955184
-MD5sum: 2d7a2e8e95deb382a4875ca2a836b6b2
-SHA1: b5c6a2b1ed39a85756f021ec259b071d88186174
-SHA256: f9e4354722123af0a9281b6e2dbb9aaf1f9b536f0cd1d1e91b6901a5154fb7b2
+Size: 696
+MD5sum: 2ae13c1d0f8d4aface2146a655230d49
+SHA1: 744a0c75d67e74b2eeb4119d130b5388132bc645
+SHA256: ba53d32b99118234062d39d00c62f70f7f8f8e6f098386676a40a3298d73eb31
 Homepage: https://www.gnu.org/software/bash/
 Description: A sh-compatible shell that incorporates useful features from the Korn shell (ksh) and C shell (csh)
 

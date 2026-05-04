@@ -1,0 +1,193 @@
+Package: apt-transport-tor
+Version: 2.8.1-5
+Architecture: all
+Maintainer: @yada
+Installed-Size: 39
+Depends: tor, apt (= 2.8.1-5)
+Filename: pool/main/a/apt-transport-tor/apt-transport-tor_2.8.1-5_all.deb
+Size: 928
+MD5sum: f1c69a5c5c059cdc7b2b772d7747e81f
+SHA1: 5423434636c062caf3f2eef26df14790ed263494
+SHA256: 6ef9d5b466baec6cb6ffb6aa7024ebee56e2e876146f029d5b9ef7b1200c4c62
+Homepage: https://packages.debian.org/apt
+Description: APT transport for anonymous package downloads via Tor
+
+Package: ca-certificates
+Version: 1:2026.03.19
+Architecture: all
+Maintainer: @termux
+Installed-Size: 263
+Filename: pool/main/c/ca-certificates/ca-certificates_1:2026.03.19_all.deb
+Size: 124736
+MD5sum: 178004619feb70558b1590d55736feea
+SHA1: 677903d2756e48bb9d9f475daa7e968710af7154
+SHA256: 4423c66d65db2fdeb7f6d427355cb7a58abd72e136512522e1b02fbe16680a25
+Homepage: https://curl.se/docs/caextract.html
+Description: Common CA certificates
+
+Package: docbook-xml
+Version: 5.1-1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 2401
+Depends: libxml2-utils
+Breaks: docbook-xsl (<= 1.79.2-1)
+Filename: pool/main/d/docbook-xml/docbook-xml_5.1-1_all.deb
+Size: 78176
+MD5sum: 0177dd6853474f947d21527392b18e18
+SHA1: 2e7a8ee1654559654783efcf7a0bf64aafeeeb27
+SHA256: b70bd9f3a0136ef7e880e66b5034a97b8e7b50c90ef133455c3ad877024a88a6
+Homepage: https://www.oasis-open.org/docbook/
+Description: A widely used XML scheme for writing documentation and help
+
+Package: docbook-xsl
+Version: 1.79.2-4
+Architecture: all
+Maintainer: @termux
+Installed-Size: 33416
+Depends: docbook-xml (>= 5.1), libxml2-utils, xsltproc
+Filename: pool/main/d/docbook-xsl/docbook-xsl_1.79.2-4_all.deb
+Size: 1387724
+MD5sum: cdb3b62cdf73633ba2253a58a860d779
+SHA1: 39c0368bf4cb56ca3194676a09cc523f02a9c51e
+SHA256: a499ae036eed5f8c3203023e404f5d2c8e0064b2a39abc6581f8a07458550ef6
+Homepage: https://docbook.org/
+Description: XML stylesheets for Docbook-xml transformations
+
+Package: python-ensurepip-wheels
+Version: 3.13.13-1
+Architecture: all
+Maintainer: Yaksh Bariya <thunder-coding@termux.dev>
+Installed-Size: 1783
+Depends: python (= 3.13.13-1)
+Breaks: python (<< 3.11.1-3)
+Replaces: python (<< 3.11.1-3)
+Filename: pool/main/p/python-ensurepip-wheels/python-ensurepip-wheels_3.13.13-1_all.deb
+Size: 1713288
+MD5sum: c94068877fd146069d785d59bfeb13ad
+SHA1: 7ba8979e6908d1c186e03091b3478dc32ab9bc78
+SHA256: c7835f87a9901dfc04819b825e93f51e09284fc669f684d3423195ed7c2405ae
+Homepage: https://python.org/
+Description: Wheels for Python ensurepip
+
+Package: python-xcbgen
+Version: 1.17.0-2
+Architecture: all
+Maintainer: @termux
+Installed-Size: 127
+Depends: xcb-proto (= 1.17.0-2)
+Recommends: python
+Breaks: xcb-proto (<< 1.15.2)
+Replaces: xcb-proto (<< 1.15.2)
+Filename: pool/main/p/python-xcbgen/python-xcbgen_1.17.0-2_all.deb
+Size: 15196
+MD5sum: 39b5a102c9f44e0a21fccd2cbe07ff24
+SHA1: b21e08e6c482bcb1290e7fb7ba208d04318b7937
+SHA256: e0be0a4419e6478aa96b042438b4d5710aef488794f8ca6d401a6f7523a70e73
+Homepage: https://xcb.freedesktop.org/
+Description: The xcbgen Python module
+
+Package: ttf-dejavu
+Version: 2.37-8
+Architecture: all
+Maintainer: @termux
+Installed-Size: 10106
+Filename: pool/main/t/ttf-dejavu/ttf-dejavu_2.37-8_all.deb
+Size: 2460112
+MD5sum: 0fa53f4bee9420b90e589eca2c1143d9
+SHA1: 8dba8884ca6438f11c956df54df938e2ed57402b
+SHA256: 014716b074c782833568ef1d3826c3675c75ab53e4c80fe2f5796b3210cef8fb
+Homepage: https://dejavu-fonts.github.io/
+Description: Font family based on the Bitstream Vera Fonts with a wider range of characters
+
+Package: xcb-proto
+Version: 1.17.0-2
+Architecture: all
+Maintainer: @termux
+Installed-Size: 811
+Conflicts: xcbproto
+Replaces: xcbproto
+Filename: pool/main/x/xcb-proto/xcb-proto_1.17.0-2_all.deb
+Size: 78616
+MD5sum: f51826367814585936fd283816d8899f
+SHA1: a846c3a21ce1c414c292bffd8483468ce05c6175
+SHA256: 428af1777d4b5a1f7d1258cd1fdc080db15bd025b14979b5d29eb2222b0f8d20
+Homepage: https://xcb.freedesktop.org/
+Description: XML-XCB protocol descriptions
+
+Package: xorg-util-macros
+Version: 1.20.2
+Architecture: all
+Maintainer: @termux
+Installed-Size: 143
+Filename: pool/main/x/xorg-util-macros/xorg-util-macros_1.20.2_all.deb
+Size: 21972
+MD5sum: 68659f56826c4b2754ceafe042ecf25f
+SHA1: ab95bb1aced37111a213bc8b9f8d9dfd17b5d7be
+SHA256: 3184eed7f7323080a6a837eaa9fbec655cea6b587c817bb2eedb3e8d1ff30885
+Homepage: https://xorg.freedesktop.org/
+Description: X.Org Autotools macros
+
+Package: xorgproto
+Version: 2025.1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 2292
+Depends: xorg-util-macros
+Conflicts: x11-proto
+Replaces: x11-proto
+Filename: pool/main/x/xorgproto/xorgproto_2025.1_all.deb
+Size: 249648
+MD5sum: 483f4936b13a3c2f96555a3fa7f280a7
+SHA1: 25c3f2153577521143933a27863c077d2eabadb0
+SHA256: 1044f86cc5c376aac6fb4b837d7c2a5bf1de9df09642e0b6b800726b4ab01e65
+Homepage: https://xorg.freedesktop.org/
+Description: X.Org X11 Protocol headers
+
+Package: xtrans
+Version: 1.6.0
+Architecture: all
+Maintainer: @termux
+Installed-Size: 298
+Filename: pool/main/x/xtrans/xtrans_1.6.0_all.deb
+Size: 39904
+MD5sum: 08aa5880dedb24e4596909a363e6cfac
+SHA1: bb622809e74b0d39c236c9c013be33a0d5ad57c7
+SHA256: b5e7f838633a97d9164c982afc871c62f593c9d66f13942138cf6c7eb6929686
+Homepage: https://xorg.freedesktop.org/
+Description: X transport library
+
+Package: yada-keyring
+Version: 3.13
+Architecture: all
+Essential: yes
+Maintainer: @yada
+Installed-Size: 121
+Conflicts: termux-keyring
+Replaces: termux-keyring
+Provides: termux-keyring
+Filename: pool/main/y/yada-keyring/yada-keyring_3.13_all.deb
+Size: 40036
+MD5sum: 341114cbaf31675cfd64392e1513bd28
+SHA1: e9f5ea0fbae953440b1f1a442bc474b11b4d9011
+SHA256: f744e121844cca5c2b4f532632d90d00201b9ee347bdea6730373ed4bc26e1ff
+Homepage: https://github.com/yada
+Description: GPG public keys for the official YADA repositories
+
+Package: yada-licenses
+Version: 2.1
+Architecture: all
+Essential: yes
+Maintainer: @yada
+Installed-Size: 612
+Conflicts: termux-licenses
+Replaces: termux-licenses
+Provides: termux-licenses
+Filename: pool/main/y/yada-licenses/yada-licenses_2.1_all.deb
+Size: 52624
+MD5sum: d7abe1b372c697318d562cd210b9a40c
+SHA1: 6b31307a2d548eefb3edee6d34d972b36ada5cad
+SHA256: 467d7644618b8f9e68859affc3a3d84e5c706bf26c7afcf4d06f2c673b693271
+Homepage: https://yada.example
+Description: Contains LICENSE files for common licenses
+
