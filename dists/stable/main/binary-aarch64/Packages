@@ -152,19 +152,19 @@ Homepage: https://curl.se/docs/caextract.html
 Description: Common CA certificates
 
 Package: coreutils
-Version: 9.10-1
+Version: 9.10-2
 Architecture: aarch64
 Essential: yes
-Maintainer: @termux
+Maintainer: @yada
 Installed-Size: 2762
 Depends: libandroid-selinux, libandroid-support, libgmp, libiconv, openssl (>= 1:3.5.0-1)
 Breaks: chroot, busybox (<< 1.30.1-4)
 Replaces: chroot, busybox (<< 1.30.1-4)
-Filename: pool/main/c/coreutils/coreutils_9.10-1_aarch64.deb
-Size: 803352
-MD5sum: 4c7b06522ed9185c7b9a46db1bce47f3
-SHA1: 62c267c860ac241fd28c356dced60a47664ad160
-SHA256: 64adedc3daa5941da2b70d23cb86cfbdb351b7b4a2b35ae57a90a648bc3d8681
+Filename: pool/main/c/coreutils/coreutils_9.10-2_aarch64.deb
+Size: 803820
+MD5sum: cdf05a27f5e812cf940acb02d36144c9
+SHA1: 9374fe07d53d99143f67ca5dcba9d5f535c40e6a
+SHA256: d035fa8581f5897145ee2e95130dbd6d6c2873478adc9692dce70e51bb6b8a3b
 Homepage: https://www.gnu.org/software/coreutils/
 Description: Basic file, shell and text manipulation utilities from the GNU project
 
