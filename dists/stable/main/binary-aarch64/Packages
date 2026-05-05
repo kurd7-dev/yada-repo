@@ -85,10 +85,10 @@ Recommends: command-not-found, bash-completion
 Breaks: bash-dev
 Replaces: bash-dev
 Filename: pool/main/b/bash/bash_5.3.9_aarch64.deb
-Size: 696
-MD5sum: 2ae13c1d0f8d4aface2146a655230d49
-SHA1: 744a0c75d67e74b2eeb4119d130b5388132bc645
-SHA256: ba53d32b99118234062d39d00c62f70f7f8f8e6f098386676a40a3298d73eb31
+Size: 955156
+MD5sum: e94d4916889d878abc5d9178d3c81bf8
+SHA1: 4480ee5b1149d02dc81549a3ba25fcc7c8f9adb9
+SHA256: d63ea72608e1138530070476fc8aaa202234ca38a6480c4b4bc46997b84d104d
 Homepage: https://www.gnu.org/software/bash/
 Description: A sh-compatible shell that incorporates useful features from the Korn shell (ksh) and C shell (csh)
 
