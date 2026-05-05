@@ -1,14 +1,14 @@
 Package: apt-transport-tor
-Version: 2.8.1-5
+Version: 2.8.1-6
 Architecture: all
 Maintainer: @yada
 Installed-Size: 39
-Depends: tor, apt (= 2.8.1-5)
-Filename: pool/main/a/apt-transport-tor/apt-transport-tor_2.8.1-5_all.deb
+Depends: tor, apt (= 2.8.1-6)
+Filename: pool/main/a/apt-transport-tor/apt-transport-tor_2.8.1-6_all.deb
 Size: 928
-MD5sum: f1c69a5c5c059cdc7b2b772d7747e81f
-SHA1: 5423434636c062caf3f2eef26df14790ed263494
-SHA256: 6ef9d5b466baec6cb6ffb6aa7024ebee56e2e876146f029d5b9ef7b1200c4c62
+MD5sum: 56c9a71feaff24387a6c1ee5278b2737
+SHA1: 7b3ea6b56df4eea6ccb5c907acbffb0d97a0a943
+SHA256: 3449e240e3b4f14a2cbb31e307ab9790993618ea07120b462a89bef9864a9721
 Homepage: https://packages.debian.org/apt
 Description: APT transport for anonymous package downloads via Tor
 

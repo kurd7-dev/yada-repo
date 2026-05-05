@@ -1,47 +1,47 @@
 Package: apt
-Version: 2.8.1-5
+Version: 2.8.1-6
 Architecture: aarch64
 Essential: yes
 Maintainer: @yada
-Installed-Size: 4069
+Installed-Size: 4073
 Depends: coreutils, dpkg, findutils, gpgv, grep, libandroid-glob, libbz2, libc++, libiconv, libgcrypt, libgnutls, liblz4, liblzma, sed, yada-keyring, yada-licenses, xxhash, zlib, zstd
 Suggests: gnupg
 Conflicts: apt-transport-https, libapt-pkg, unstable-repo, game-repo, science-repo
 Replaces: apt-transport-https, libapt-pkg, unstable-repo, game-repo, science-repo
 Provides: unstable-repo, game-repo, science-repo
-Filename: pool/main/a/apt/apt_2.8.1-5_aarch64.deb
-Size: 1032352
-MD5sum: 048ecfae43683c37d853731cfd9f0bca
-SHA1: 5e63aec7b01765c15f599959ceee8488e1380c34
-SHA256: b2be15af8997998009c1d431c78c15d8ce3e9e5fa6666247b33b50dee839c121
+Filename: pool/main/a/apt/apt_2.8.1-6_aarch64.deb
+Size: 1033172
+MD5sum: ed2c3a6afc2885743f932880e3f7b6cd
+SHA1: 25b201fb49cd3c4e94e9d96137b14712756a91e7
+SHA256: d8d682cb7e25505d9361c3f297d222f8fb4acec10fd381063b15e0c859ea5ada
 Homepage: https://packages.debian.org/apt
 Description: Front-end for the dpkg package manager
 
 Package: apt-ftparchive
-Version: 2.8.1-5
+Version: 2.8.1-6
 Architecture: aarch64
 Maintainer: @yada
 Installed-Size: 315
-Depends: libdb, apt (= 2.8.1-5)
-Filename: pool/main/a/apt-ftparchive/apt-ftparchive_2.8.1-5_aarch64.deb
+Depends: libdb, apt (= 2.8.1-6)
+Filename: pool/main/a/apt-ftparchive/apt-ftparchive_2.8.1-6_aarch64.deb
 Size: 97056
-MD5sum: 47cdc1b20a721e0680b0715cbf8c75cf
-SHA1: ed44e4c455edb7a82d4a6970b16a295d2ca38395
-SHA256: fbca968663e6508c3bce2ab33451d4bfffad4f125aa3f2f0ce0240f1f361c6df
+MD5sum: 5692f8149559df4c09d340339f19255e
+SHA1: bddb8d4fc7049d6960ee317482fdbbd289039921
+SHA256: 9f6ae846bde5e31d97cc44ea9428c5bc7d035f9a7d4bb82c88653dd254948e01
 Homepage: https://packages.debian.org/apt
 Description: apt-ftparchive is the command line tool that generates the index files that APT uses to access a distribution source
 
 Package: apt-transport-tor
-Version: 2.8.1-5
+Version: 2.8.1-6
 Architecture: all
 Maintainer: @yada
 Installed-Size: 39
-Depends: tor, apt (= 2.8.1-5)
-Filename: pool/main/a/apt-transport-tor/apt-transport-tor_2.8.1-5_all.deb
+Depends: tor, apt (= 2.8.1-6)
+Filename: pool/main/a/apt-transport-tor/apt-transport-tor_2.8.1-6_all.deb
 Size: 928
-MD5sum: f1c69a5c5c059cdc7b2b772d7747e81f
-SHA1: 5423434636c062caf3f2eef26df14790ed263494
-SHA256: 6ef9d5b466baec6cb6ffb6aa7024ebee56e2e876146f029d5b9ef7b1200c4c62
+MD5sum: 56c9a71feaff24387a6c1ee5278b2737
+SHA1: 7b3ea6b56df4eea6ccb5c907acbffb0d97a0a943
+SHA256: 3449e240e3b4f14a2cbb31e307ab9790993618ea07120b462a89bef9864a9721
 Homepage: https://packages.debian.org/apt
 Description: APT transport for anonymous package downloads via Tor
 
