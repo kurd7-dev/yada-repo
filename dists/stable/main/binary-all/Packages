@@ -158,19 +158,19 @@ Homepage: https://xorg.freedesktop.org/
 Description: X transport library
 
 Package: yada-keyring
-Version: 3.13
+Version: 3.13-1
 Architecture: all
 Essential: yes
 Maintainer: @yada
-Installed-Size: 121
+Installed-Size: 237
 Conflicts: termux-keyring
 Replaces: termux-keyring
 Provides: termux-keyring
-Filename: pool/main/y/yada-keyring/yada-keyring_3.13_all.deb
-Size: 40036
-MD5sum: 341114cbaf31675cfd64392e1513bd28
-SHA1: e9f5ea0fbae953440b1f1a442bc474b11b4d9011
-SHA256: f744e121844cca5c2b4f532632d90d00201b9ee347bdea6730373ed4bc26e1ff
+Filename: pool/main/y/yada-keyring/yada-keyring_3.13-1_all.deb
+Size: 40164
+MD5sum: 91d0c1ae275a592427098267b65dd0de
+SHA1: 384d21cf48b403c08b3098e12da78341e1be583c
+SHA256: 6ade78777d3efa69ec625b659f31c67d66a816975075f5c4733bce84369bc117
 Homepage: https://github.com/yada
 Description: GPG public keys for the official YADA repositories
 
